@@ -1,7 +1,7 @@
 # House Price Prediction
 # project objective:
-> predicting house price in particular region inorder to help user to determine selling price and find right time to buy a house.
-> predicting house price to offer valuable insights for real estate markets.
+ 1> predicting house price in particular region inorder to help user to determine selling price and find right time to buy a house.
+ 2> predicting house price to offer valuable insights for real estate markets.
 # Project Overview:
 This project focuses on predicting house prices using the Boston Housing Dataset. The dataset contains various features such as crime rate, number of rooms, and accessibility to highways, which are used to train a machine learning model. The XGBoost algorithm is chosen for its effectiveness in regression tasks and handling complex datasets like the Boston dataset.
 # Dataset Description: 
@@ -20,7 +20,7 @@ neumerical features of dataset are:
 11) pupil-teacher ratio by town
 12) 1000(Bk - 0.63)^2 where Bk is the proportion of black people by town
 13) lower status of the population.
-Target : the median value of owner-occupied homes.
+>Target : the median value of owner-occupied homes.
 # Flow of Project:
 1) load dataset
 2) prepocessing(handling missing values,feature engineering,data transformation)
