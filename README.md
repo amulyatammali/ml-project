@@ -1,7 +1,7 @@
 # House Price Prediction
 # project objective:
- 1> predicting house price in particular region inorder to help user to determine selling price and find right time to buy a house.
- 2> predicting house price to offer valuable insights for real estate markets.
+ 1) predicting house price in particular region inorder to help user to determine selling price and find right time to buy a house.
+ 2) predicting house price to offer valuable insights for real estate markets.
 # Project Overview:
 This project focuses on predicting house prices using the Boston Housing Dataset. The dataset contains various features such as crime rate, number of rooms, and accessibility to highways, which are used to train a machine learning model. The XGBoost algorithm is chosen for its effectiveness in regression tasks and handling complex datasets like the Boston dataset.
 # Dataset Description: 
@@ -20,7 +20,8 @@ neumerical features of dataset are:
 11) pupil-teacher ratio by town
 12) 1000(Bk - 0.63)^2 where Bk is the proportion of black people by town
 13) lower status of the population.
->Target : the median value of owner-occupied homes.
+    
+Target : the median value of owner-occupied homes.
 # Flow of Project:
 1) load dataset
 2) prepocessing(handling missing values,feature engineering,data transformation)
@@ -33,10 +34,8 @@ neumerical features of dataset are:
 XGBoost (Extreme Gradient Boosting) is chosen due to its capability to handle complex relationships within data, its robustness against overfitting, and its high prediction accuracy. Hyperparameter tuning may be performed to optimize model performance.
 # model evalution 
 1) On training data: 
-   R square error: 0.9999948236320982
-   mean absolute error: 0.0145848437110976
+   R square error: 0.9999948236320982    mean absolute error: 0.0145848437110976
 2) on testing data:
-   R square error : 0.8711660369151691
-   mean absolute error : 2.2834744154238233
+   R square error : 0.8711660369151691   mean absolute error : 2.2834744154238233
 #
 By leveraging the Boston Housing Dataset and XGBoost algorithm, this project demonstrates the application of machine learning in predicting house prices, offering valuable insights and predictive capabilities for real estate markets and related industries.
